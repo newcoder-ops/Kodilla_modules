@@ -9,3 +9,4 @@ def is_palindrom(word):
         return True
     else:
         return False
+is_palindrom(word)
