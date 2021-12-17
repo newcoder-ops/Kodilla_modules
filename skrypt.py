@@ -42,3 +42,5 @@ if __name__ == "__main__":
     last_name = sys.argv[2]
     title = sys.argv[3]
     customized_hello(first_name, last_name)
+    
+print("_________________________")
