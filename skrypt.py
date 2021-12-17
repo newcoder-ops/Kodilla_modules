@@ -32,12 +32,13 @@ print("_________________________")
 
 import sys
 
-def customized_hello(first_name, last_name):
-    print("Hello %s %s!" % (first_name, last_name))
+def customized_hello(first_name, last_name, Mr):
+    print("Hello %s %s %s!" % (first_name, last_name, Mr))
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         exit(1)
     first_name = sys.argv[1]
     last_name = sys.argv[2]
+    title = sys.argv[3]
     customized_hello(first_name, last_name)
