@@ -26,3 +26,7 @@ with open("names.txt", 'a') as write_file:
 new_name = "Luke"
 with open("new_names.txt", 'w') as write_file:
     write_file.write(new_name)
+
+import logging
+logging.warn("warning!")
+logging.debug("debug")
