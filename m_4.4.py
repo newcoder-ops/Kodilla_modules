@@ -9,3 +9,7 @@ def print_maturity(age):
 if __name__ == "__main__":
     age = int(sys.argv[1])
     print_maturity(age)
+
+
+print("The program was called with this parameters %s" % sys.argv[1:])
+print("The first parameter is %s" % sys.argv[1])
