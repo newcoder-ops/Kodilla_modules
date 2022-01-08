@@ -20,7 +20,7 @@ def calculate(choice):
         logging.info("Dzielimy")
         num1 = input("Enter the first number")
         num2 = input("Enter the second number") 
-        return int(num1) / int(num2) if num2 != 0 else "Error, division by 0 is impossible."
+        return int(num1) / int(num2) if "0" != 0 else "Error, division by 0 is impossible."
 choice = input("Choose 1 - Add 2 - Subtract 3 - Multiply 4 - Divide")
 result = calculate(choice)
 
