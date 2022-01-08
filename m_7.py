@@ -13,3 +13,4 @@ class Car:
 
 mustang = Car(make="Ford", model_name="Mustang", color="Red", top_speed=250)
 print(mustang.make)
+instancja.pole
