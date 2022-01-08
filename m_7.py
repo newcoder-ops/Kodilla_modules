@@ -11,6 +11,12 @@ class Car:
        self.top_speed = top_speed
        self.color = color
 
-mustang = Car(make="Ford", model_name="Mustang", color="Red", top_speed=250)
-print(mustang.make)
-instancja.pole
+#mustang = Car(make="Ford", model_name="Mustang", color="Red", top_speed=250)
+#print(mustang.make)
+
+mustang = Car(make="Ford", model_name="Mustang", color="Yellow", top_speed=250)
+print(mustang)
+
+def __str__(self):
+    return f'{self.color} {self.make} {self.model_name}'
+print(mustang)
